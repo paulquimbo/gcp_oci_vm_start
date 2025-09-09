@@ -35,17 +35,17 @@
   ![Start](images/Oracle_start.png)  
 - **Stop**  
   ![Stop](images/Oracle_stop.png)
+  - **Terminate**  
+  ![Terminate](images/Oracle_terminate.png)
 
 ### VM Status
 - **Running**  
   ![OCI Running](images/Oracle_running.png)  
 - **Stopped**  
   ![OCI Stopped](images/Oracle_stoppedstatus.png)
+- **Terminated**
+  ![OCI Terminated](images/Oracle_Terminated.png)
 
-### Terminate VM
-- Terminate instance and delete boot volume  
-- Confirm cleanup  
-  ![OCI Cleaned](images/Oracle_stoppedstatus.png)
 
 ---
 
@@ -67,6 +67,8 @@
   ![Start](images/Google_start.png)  
 - **Stop**  
   ![Stop](images/Google_stop.png)
+- **Delete**  
+  ![Terminate](images/Google_delete.png)
 
 ### VM Status
 - **Running**  
