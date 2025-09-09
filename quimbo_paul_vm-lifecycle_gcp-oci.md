@@ -22,14 +22,14 @@
 5. Public IP: ephemeral
 6. Boot volume: default minimal
 
-![OCI Create](images\Oracle_create.png)
+- OCI Create ![OCI Create](images/Oracle_create.png)
 
 ### Start/Stop
 - Start![Start](images/Oracle_start.png)
 
 - Stop ![Stop](images/Oracle_stop.png)
 
-![OCI running](images/Oracle_running.png)
+- OCI Running![OCI running](images/Oracle_running.png)
 
 ### Terminate
 - Terminate and delete boot volume; verify cleanup
@@ -47,13 +47,13 @@
 5. Boot disk: default minimal
 6. Network: default VPC; ephemeral public IP
 
-![GCP create](images/gcp_create.png)
+- GCP Create ![GCP create](images/gcp_create.png)
 
 ### Start/Stop
 - Start: ![start](images/Google_start.png)
 - Stop: ![stop](images/Google_stop.png)
 
-![GCP running](images/gcp_running.png)
+-GCP Running ![GCP running](images/gcp_running.png)
 
 ### Delete
 - Delete instance and verify no disks/IPs remain
