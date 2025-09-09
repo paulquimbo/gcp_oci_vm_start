@@ -2,11 +2,11 @@
 
 ## Video
 ### How to Create VM in Oracle-OCI
-[OCI-how-to] https://www.loom.com/share/defdc64ccc814d47aad53246da9ae163
+[OCI-how-to] (https://www.loom.com/share/defdc64ccc814d47aad53246da9ae163)
 
 
 ### How to Create VM in Google-GCP
-[GCP-how-to] https://www.loom.com/share/0071f9bbc61f4b90be84ed6adb1ee56c
+[GCP-how-to] (https://www.loom.com/share/0071f9bbc61f4b90be84ed6adb1ee56c)
 
 ## Prereqs
 - Cloud access to GCP and OCI
