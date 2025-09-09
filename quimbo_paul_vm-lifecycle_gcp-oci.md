@@ -1,8 +1,12 @@
 # VM Lifecycle on GCP and OCI — Tutorial
 
 ## Video
-[Oracle-OCI] (https://www.loom.com/share/defdc64ccc814d47aad53246da9ae163)
-[Google-CGP] (https://www.loom.com/share/0071f9bbc61f4b90be84ed6adb1ee56c) 
+# How to Create VM in Oracle-OCI
+https://www.loom.com/share/defdc64ccc814d47aad53246da9ae163
+
+
+# How to Create VM in Google-GCP
+https://www.loom.com/share/0071f9bbc61f4b90be84ed6adb1ee56c
 
 ## Prereqs
 - Cloud access to GCP and OCI
@@ -18,18 +22,18 @@
 5. Public IP: ephemeral
 6. Boot volume: default minimal
 
-![OCI create](images/Oracle_create.png)
+[OCI create](images/Oracle_create.png)
 
 ### Start/Stop
-- Start: (images/start.png)
-- Stop: <state shows STOPPED>
+- Start: (images/Oracle_start.png)
+- Stop: (images/Oracle_stoppedstatus.png)
 
-![OCI running](images/oci_running.png)
+![OCI running](images/Oracle_running.pngg)
 
 ### Terminate
 - Terminate and delete boot volume; verify cleanup
 
-![OCI cleaned](images/oci_clean.png)
+![OCI cleaned](images/Oracle_stoppedstatus.png)
 
 ---
 
