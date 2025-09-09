@@ -1,85 +1,97 @@
-# VM Lifecycle on GCP and OCI — Tutorial
+# 🖥️ VM Lifecycle on GCP and OCI — Tutorial
 
-## Video
-### How to Create VM in Oracle-OCI
-[OCI-how-to] https://www.loom.com/share/defdc64ccc814d47aad53246da9ae163
+## 🎥 Video Walkthroughs
 
+### Oracle Cloud (OCI)
+[▶️ How to Create a VM in OCI](https://www.loom.com/share/defdc64ccc814d47aad53246da9ae163)
 
-### How to Create VM in Google-GCP
-[GCP-how-to] https://www.loom.com/share/0071f9bbc61f4b90be84ed6adb1ee56c
-
-## Prereqs
-- Cloud access to GCP and OCI
-- No PHI/PII; smallest/free-tier shapes
+### Google Cloud Platform (GCP)
+[▶️ How to Create a VM in GCP](https://www.loom.com/share/0071f9bbc61f4b90be84ed6adb1ee56c)
 
 ---
-## Oracle Cloud (OCI)
-### Create
-1. Compartment: <name>
-2. Networking: VCN with Internet Connectivity (defaults)
-3. Shape: <smallest/free-eligible>
-4. Image: Ubuntu (or Oracle Linux)
-5. Public IP: ephemeral
-6. Boot volume: default minimal
 
-- OCI Create 
+## ✅ Prerequisites
+- Access to GCP and OCI cloud consoles  
+- Use smallest/free-tier VM shapes  
+- No PHI/PII data involved  
+
+---
+
+## ☁️ Oracle Cloud Infrastructure (OCI)
+
+### 🔧 VM Creation Steps
+1. **Compartment**: `pquimbo2025`  
+2. **Networking**: VCN with default internet connectivity  
+3. **Shape**: `VM.Standard.E2.1.Micro`  
+4. **Image**: Ubuntu  
+5. **Public IP**: Ephemeral  
+6. **Boot Volume**: Default minimal  
+
+**Creation Screenshot**  
 ![OCI Create](images/Oracle_create.png)
 
-### Start/Stop
-- Start![Start](images/Oracle_start.png)
-- Stop ![Stop](images/Oracle_stop.png)
+### Start / Stop VM
+- **Start**  
+  ![Start](images/Oracle_start.png)  
+- **Stop**  
+  ![Stop](images/Oracle_stop.png)
 
-#### Status
--GCP Running ![GCP running](images/Oracle_running.png)
--GCP Stopped ![GCP running](images/Oracle_stoppedstatus.png)
+### VM Status
+- **Running**  
+  ![OCI Running](images/Oracle_running.png)  
+- **Stopped**  
+  ![OCI Stopped](images/Oracle_stoppedstatus.png)
 
-- OCI Running![OCI running](images/Oracle_running.png)
-
-### Terminate
-- Terminate and delete boot volume; verify cleanup
-![OCI cleaned](images/Oracle_stoppedstatus.png)
+### Terminate VM
+- Terminate instance and delete boot volume  
+- Confirm cleanup  
+  ![OCI Cleaned](images/Oracle_stoppedstatus.png)
 
 ---
 
-## Google Cloud (GCP)
-### Create
-1. Console → Compute Engine → Create instance
-2. Region/zone: <your choice>
-3. Machine type: <smallest available/free-eligible>
-4. Image: Ubuntu LTS
-5. Boot disk: default minimal
-6. Network: default VPC; ephemeral public IP
+## Google Cloud Platform (GCP)
 
-- GCP Create 
-![GCP create](images/Google_create.png)
+### VM Creation Steps
+1. Navigate to: **Console → Compute Engine → Create Instance**  
+2. **Region/Zone**: `us-east4` (Northern Virginia)  
+3. **Machine Type**: `e2-micro` (2 vCPU, 1 core, 1 GB memory)  
+4. **Image**: Ubuntu LTS  
+5. **Boot Disk**: Default minimal  
+6. **Network**: Default VPC with ephemeral public IP  
 
-### Start/Stop
-- Start: ![start](images/Google_start.png)
-- Stop: ![stop](images/Google_stop.png)
+**Creation Screenshot**  
+![GCP Create](images/Google_create.png)
 
-#### Status
--GCP Running ![GCP running](images/Google_running.png)
--GCP Stopped ![GCP running](images/Google_stoppedstatus.png)
+### Start / Stop VM
+- **Start**  
+  ![Start](images/Google_start.png)  
+- **Stop**  
+  ![Stop](images/Google_stop.png)
 
-### Delete
-- Delete instance and verify no disks/IPs remain
+### VM Status
+- **Running**  
+  ![GCP Running](images/Google_running.png)  
+- **Stopped**  
+  ![GCP Stopped](images/Google_stoppedstatus.png)
 
-![GCP cleaned](images/Google_deletedstatus.png)
+### Delete VM
+- Delete instance and verify no disks or IPs remain  
+  ![GCP Cleaned](images/Google_deletedstatus.png)
 
 ---
 
 ## Reflections
+
 ### Similarities
-* Regions and Zone Selection
-* Creating Machine Specificition
-* Managing VM function (starting, stopping, monitoring, deleting)
+- Region and zone selection  
+- VM specification setup  
+- Lifecycle management: start, stop, monitor, delete  
 
 ### Differences
-* User interface
-* Pricing/Rates
-* Storage Choices
-* OS Selections (number of selections)
+- User interface and navigation  
+- Pricing and billing models  
+- Storage configuration options  
+- OS image variety  
 
-### Preference (OCI vs GCP) and Why
-I’d choose Google Cloud Platform (GCP) over Oracle Cloud (OCI) because GCP is much easier to use when you're just starting out. Its interface is clean and simple to navigate, and setting up a virtual machine takes only a few steps. You don’t need to understand complex networking or enterprise-level settings to get things running. GCP is designed with developers in mind, making it a smoother and more approachable option for learning cloud technology from the ground up.
-
+### Personal Preference: GCP vs OCI
+> I prefer **Google Cloud Platform (GCP)** over **Oracle Cloud (OCI)** for its beginner-friendly interface and streamlined VM setup. GCP’s clean design and intuitive workflow make it ideal for learning cloud fundamentals without needing deep networking knowledge. It’s built with developers in mind, offering a smoother experience for getting started.
