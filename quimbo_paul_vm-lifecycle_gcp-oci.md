@@ -27,8 +27,11 @@
 
 ### Start/Stop
 - Start![Start](images/Oracle_start.png)
-
 - Stop ![Stop](images/Oracle_stop.png)
+
+#### Status
+-GCP Running ![GCP running](images/Oracle_running.png)
+-GCP Stopped ![GCP running](images/Oracle_stoppedstatus.png)
 
 - OCI Running![OCI running](images/Oracle_running.png)
 
@@ -48,13 +51,15 @@
 6. Network: default VPC; ephemeral public IP
 
 - GCP Create 
-![GCP create](images/gcp_create.png)
+![GCP create](images/Google_create.png)
 
 ### Start/Stop
 - Start: ![start](images/Google_start.png)
 - Stop: ![stop](images/Google_stop.png)
 
--GCP Running ![GCP running](images/gcp_running.png)
+#### Status
+-GCP Running ![GCP running](images/Google_running.png)
+-GCP Stopped ![GCP running](images/Google_stoppedstatus.png)
 
 ### Delete
 - Delete instance and verify no disks/IPs remain
