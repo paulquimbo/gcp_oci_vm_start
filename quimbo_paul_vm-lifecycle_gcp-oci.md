@@ -2,11 +2,11 @@
 
 ## Video
 ### How to Create VM in Oracle-OCI
-[OCI-how-to] (https://www.loom.com/share/defdc64ccc814d47aad53246da9ae163)
+[OCI-how-to] https://www.loom.com/share/defdc64ccc814d47aad53246da9ae163
 
 
 ### How to Create VM in Google-GCP
-[GCP-how-to] (https://www.loom.com/share/0071f9bbc61f4b90be84ed6adb1ee56c)
+[GCP-how-to] https://www.loom.com/share/0071f9bbc61f4b90be84ed6adb1ee56c
 
 ## Prereqs
 - Cloud access to GCP and OCI
@@ -28,7 +28,7 @@ OCI create (images/Oracle_create.png)
 - Start: (images/Oracle_start.png)
 - Stop: (images/Oracle_stoppedstatus.png)
 
-![OCI running](images/Oracle_running.pngg)
+![OCI running](images/Oracle_running.png)
 
 ### Terminate
 - Terminate and delete boot volume; verify cleanup
