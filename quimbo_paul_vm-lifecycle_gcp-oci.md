@@ -35,7 +35,7 @@
   ![Start](images/Oracle_start.png)  
 - **Stop**  
   ![Stop](images/Oracle_stop.png)
-  - **Terminate**  
+- **Terminate**  
   ![Terminate](images/Oracle_terminate.png)
 
 ### VM Status
@@ -44,7 +44,7 @@
 - **Stopped**  
   ![OCI Stopped](images/Oracle_stoppedstatus.png)
 - **Terminated**
-  ![OCI Terminated](images/Oracle_Terminated.png)
+  ![OCI Terminated](images/Oracle_terminated.png)
 
 
 ---
