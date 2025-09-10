@@ -44,7 +44,7 @@
 - **Stopped**  
   ![OCI Stopped](images/oci-state-stopped.png)
 - **Terminated**
-  ![OCI Terminated](images/oci-state-terminated.png)
+  ![OCI Terminated](images/oci-state-terminate.png)
 
 
 ---
