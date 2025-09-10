@@ -1,6 +1,6 @@
-# 🖥️ VM Lifecycle on GCP and OCI — Tutorial
+# VM Lifecycle on GCP and OCI — Tutorial
 
-## 🎥 Video Walkthroughs
+## Video Walkthroughs
 
 ### Oracle Cloud (OCI)
 [▶️ How to Create a VM in OCI](https://www.loom.com/share/defdc64ccc814d47aad53246da9ae163)
@@ -10,16 +10,16 @@
 
 ---
 
-## ✅ Prerequisites
+## Prerequisites
 - Access to GCP and OCI cloud consoles  
 - Use smallest/free-tier VM shapes  
 - No PHI/PII data involved  
 
 ---
 
-## ☁️ Oracle Cloud Infrastructure (OCI)
+## Oracle Cloud Infrastructure (OCI)
 
-### 🔧 VM Creation Steps
+### VM Creation Steps
 1. **Compartment**: `pquimbo2025`  
 2. **Networking**: VCN with default internet connectivity  
 3. **Shape**: `VM.Standard.E2.1.Micro`  
