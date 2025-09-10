@@ -3,10 +3,10 @@
 ## Video Walkthroughs
 
 ### Oracle Cloud (OCI)
-[▶️ How to Create a VM in OCI](https://www.loom.com/share/defdc64ccc814d47aad53246da9ae163)
+![▶️ How to Create a VM in OCI](https://www.loom.com/share/defdc64ccc814d47aad53246da9ae163)
 
 ### Google Cloud Platform (GCP)
-[▶️ How to Create a VM in GCP](https://www.loom.com/share/0071f9bbc61f4b90be84ed6adb1ee56c)
+![▶️ How to Create a VM in GCP](https://www.loom.com/share/0071f9bbc61f4b90be84ed6adb1ee56c)
 
 ---
 
