@@ -28,23 +28,23 @@
 6. **Boot Volume**: Default minimal  
 
 **Creation Screenshot**  
-![OCI Create](images/Oracle_create.png)
+![OCI Create](images/oci-create.png)
 
 ### Start / Stop VM
 - **Start**  
-  ![Start](images/Oracle_start.png)  
+  ![Start](images/oci-start.png)  
 - **Stop**  
-  ![Stop](images/Oracle_stop.png)
+  ![Stop](images/stop-stop.png)
 - **Terminate**  
-  ![Terminate](images/Oracle_terminate.png)
+  ![Terminate](images/oci-terminate.png)
 
 ### VM Status
 - **Running**  
-  ![OCI Running](images/Oracle_running.png)  
+  ![OCI Running](images/oci-state-running.png)  
 - **Stopped**  
-  ![OCI Stopped](images/Oracle_stoppedstatus.png)
+  ![OCI Stopped](images/oci-state-stopped.png)
 - **Terminated**
-  ![OCI Terminated](images/Oracle_terminated.png)
+  ![OCI Terminated](images/oci-state-terminated.png)
 
 
 ---
@@ -60,25 +60,25 @@
 6. **Network**: Default VPC with ephemeral public IP  
 
 **Creation Screenshot**  
-![GCP Create](images/Google_create.png)
+![GCP Create](images/gcp-create.png)
 
 ### Start / Stop VM
 - **Start**  
-  ![Start](images/Google_start.png)  
+  ![Start](images/gcp-start.png)  
 - **Stop**  
-  ![Stop](images/Google_stop.png)
+  ![Stop](images/gcp-stop.png)
 - **Delete**  
-  ![Terminate](images/Google_delete.png)
+  ![Terminate](images/gcp-delete.png)
 
 ### VM Status
 - **Running**  
-  ![GCP Running](images/Google_running.png)  
+  ![GCP Running](images/gcp-state-running.png)  
 - **Stopped**  
-  ![GCP Stopped](images/Google_stoppedstatus.png)
+  ![GCP Stopped](images/gcp-state-stopped.png)
 
 ### Delete VM
 - Delete instance and verify no disks or IPs remain  
-  ![GCP Cleaned](images/Google_deletedstatus.png)
+  ![GCP Cleaned](images/gcp-state-deleted.png)
 
 ---
 
