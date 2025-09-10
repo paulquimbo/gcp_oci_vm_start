@@ -96,4 +96,4 @@
 - OS image variety  
 
 ### Personal Preference: GCP vs OCI
-> I prefer **Google Cloud Platform (GCP)** over **Oracle Cloud (OCI)** for its beginner-friendly interface and streamlined VM setup. GCP’s clean design and intuitive workflow make it ideal for learning cloud fundamentals without needing deep networking knowledge. It’s built with developers in mind, offering a smoother experience for getting started.
+I prefer **Google Cloud Platform (GCP)** over **Oracle Cloud (OCI)** for its beginner-friendly interface and streamlined VM setup. GCP’s clean design and intuitive workflow make it ideal for learning cloud fundamentals without needing deep networking knowledge. It’s built with developers in mind, offering a smoother experience for getting started.
