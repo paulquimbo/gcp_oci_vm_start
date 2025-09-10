@@ -34,7 +34,7 @@
 - **Start**  
   ![Start](images/oci-start.png)  
 - **Stop**  
-  ![Stop](images/stop-stop.png)
+  ![Stop](images/oci-stop.png)
 - **Terminate**  
   ![Terminate](images/oci-terminate.png)
 
